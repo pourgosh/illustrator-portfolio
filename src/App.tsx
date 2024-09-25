@@ -1,7 +1,10 @@
+import { Router } from "./routes";
+import { StyledHomePage } from "./pages/HomePage/HomePage.styles";
+
 function App() {
   return (
     <>
-      <p>123</p>
+      <Router path="/" element={<StyledHomePage />} />
     </>
   );
 }
