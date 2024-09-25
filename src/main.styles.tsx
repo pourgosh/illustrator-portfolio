@@ -44,4 +44,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	background-color: #90e0ef;
+	padding: 20px 30px 0 30px;
+}
 `;
